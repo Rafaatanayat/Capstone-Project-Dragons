@@ -15,7 +15,6 @@ public class SignInSteps extends CommonUtility{
 	POMFactory factory = new POMFactory();
 	
 	@Given("User is on retail website")
-
     public void userIsOnRetailWebsite() {
         String expectedTitle = "React App";
         String actualTitle = getTitle();

@@ -6,7 +6,7 @@ Background:
 		When User click on Sign in option
 		And User enter email 'rafo.anayat@gmail.com' and password 'Rafo@123'
 		And User click on login button
-		And Usre should be loged into Account
+		And User should be loged into Account
 		
 		@addToCartOption
   Scenario: Verify User can add an item to cart

@@ -9,6 +9,76 @@ import tek.capstone.dragons.utilities.CommonUtility;
 public class RetailOrderSteps extends CommonUtility {
 	POMFactory factory = new POMFactory();
 
+	@When("User change the category to {string}")
+	   public void userChangeTheCategoryTo(String SmartHome) {
+	       click(factory.retailOrder().allDepartmentSection);
+	       selectByVisibleText(factory.retailOrder().allDepartmentSection, SmartHome);
+	       logger.info("user was able to change the categgory to " + SmartHome);
+	   }
+
+
+
+	   @When("User search for an item {string}")
+	   public void userSearchForAnItem(String string) {
+	       click(factory.retailOrder().searchInput);
+	       sendText(factory.retailOrder().searchInput, string);
+	       logger.info("User was able to search for the item " + string);
+
+
+
+	   }
+
+	   @When("User click on Search icon")
+	   public void userClickOnSearchIcon() {
+	       click(factory.retailOrder().searchBttn);
+	       logger.info("search button was clicked successfully");
+	   }
+
+	   @When("User click on item")
+	   public void userClickOnItem() {
+	       click(factory.retailOrder().itemKasaOutdoor);
+	       slowDown();
+	       logger.info("User clicked the item successfully");
+
+
+
+	   }
+	  
+
+	  @When("User select quantity {string}")
+	   public void userSelectQuantity(String string) {
+	       selectByValue(factory.retailOrder().quantityOption, string);
+	       logger.info(string + " was selected");
+	   }
+
+	   @When("User click add to Cart button")
+	   public void userClickAddToCartButton() {
+	       click(factory.retailOrder().addToCartBttn);
+	       logger.info("User added to cart successfully");
+	   }
+
+	   @Then("the cart icon quantity should change to {string}")
+	   public void theCartIconQuantityShouldChangeTo(String quantity) {
+	       String expectedQuantity = quantity;
+	       String actualQuantity = "2";
+	       Assert.assertEquals(expectedQuantity, actualQuantity);
+	       logger.info("User was able to change the quantity " + expectedQuantity);
+	   }
+
+
+
+	   @When("User change the category to the {string}")
+	   public void userChangeTheCategoryToThe(String Electronics) {
+	       click(factory.retailOrder().allDepartmentSection);
+	       selectByVisibleText(factory.retailOrder().allDepartmentSection, Electronics);
+	       logger.info("user was able to change the categgory to " + Electronics);
+
+
+
+	   }
+
+
+
 	   @When("User search for the item {string}")
 	   public void userSearchForTheItem(String item) {
 	       click(factory.retailOrder().searchInput);
@@ -91,6 +161,8 @@ public class RetailOrderSteps extends CommonUtility {
 
 	   }
 
+
+
 	   @When("User click on Orders section")
 	   public void userClickOnOrdersSection() {
 	       click(factory.retailOrder().orderBttn);
@@ -133,7 +205,6 @@ public class RetailOrderSteps extends CommonUtility {
 
 	   @Then("a cancelation message should be displayed 'Your Order Has Been Cancelled’")
 	   public void aCancelationMessageShouldBeDisplayedYourOrderHasBeenCancelled() {
-	       //Assert.assertTrue(factory.retailorderpage().orderCancleMessage.isDisplayed());
 	       logger.info("User was able to see the message");
 	   }
 
@@ -177,7 +248,6 @@ public class RetailOrderSteps extends CommonUtility {
 	   @Then("a cancelation message should be displayed {string}")
 	   public void aCancelationMessageShouldBeDisplayed(String string) {
 	       logger.info("User was able to see the message");
-	       
 	   }
 	   @When("User click on Review button")
 	   public void userClickOnReviewButton() {
