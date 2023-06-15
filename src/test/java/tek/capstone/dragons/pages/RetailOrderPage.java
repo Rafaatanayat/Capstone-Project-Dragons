@@ -1,7 +1,5 @@
 package tek.capstone.dragons.pages;
 
-import java.util.List;
-
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -13,77 +11,101 @@ public class RetailOrderPage extends BaseSetup{
 		PageFactory.initElements(getDriver(), this);
 	}
 	
-	@FindBy(id = "search")
-	public WebElement allDepartmentDropdown;
-	@FindBy(id = "seachInput")
-	public WebElement searchInputField;
-	@FindBy(id = "searchBttn")
-	public WebElement searchBttn;
-	@FindBy(xpath = "//img[@alt='Kasa Outdoor Smart Plug']")
-	public WebElement kasaOutdoorSmartPlugItem;
-	@FindBy(xpath = "//select[@class='product_select']")
-	public WebElement productQtyDropdown;
-	@FindBy(xpath = "//span[text()='Add to Cart']")
-	public WebElement addToCartBttn;
-	@FindBy(xpath = "//span[@id='cartQuantity']")
-	public WebElement cartQtyField;
-	
-	
-	//place an order with Shipping address and payment Method
-	@FindBy(id = "cartBtn")
-	public WebElement cartBttn;
-	@FindBy(id = "proceedBtn")
-	public WebElement proceedToCheckoutBttn;
-	@FindBy(id = "placeOrderBtn")
-	public WebElement placeOrderBttn;
-	@FindBy(xpath = "//div[text()='Order Placed Successfully']")
-	public WebElement orderPlacedSuccessfullyMssg;
-	@FindBy(xpath = "//img[@alt='Apex Legends - 1,000 Apex Coins']")
-	public WebElement apexLegendsItem;
-	
-	//Cancel Order
-	@FindBy(id = "orderLink")
-	public WebElement orderLink;
-	@FindBy(xpath = "//div[@class='order_header']")
-	public List<WebElement> listOfOrder;
-	@FindBy(xpath = "//p[@class='order_header-btn']")
-	public WebElement orderDetailsDispaly;
-	@FindBy(id = "byAgainBtn")
-	public WebElement buyAgainBttn;
-	@FindBy(xpath = "//div[@class='orders_container']//div[@class='order_content-actions']//button[text()='Cancel The Order']")
-	public WebElement cancelBttn;
-	@FindBy(id = "reasonInput")
-	public WebElement cancellationReason;
-	@FindBy(id = "orderSubmitBttn")
-	public WebElement cancelSubmitBttn;
-	@FindBy(xpath = "//p[text()='Your Order Has Been Cancelled']")
-	public WebElement yourOrderCancelledMssg;
-	@FindBy(xpath = "//div[@class='order_content-actions]'//button")
-	public WebElement orderContentActions;
-	@FindBy(xpath = "//p[text()='ShowDetails']")
-	public WebElement showDetails;
-	
-	//return order
-	@FindBy(xpath = "//div[@class='order']//descendant::button[@id='returnBtn']")
-	public WebElement returnItemsbttn;
-	@FindBy(xpath = "//select[@id='dropOffInput']")
-	public WebElement dropOffLocationDropdown;
-	@FindBy(xpath = "//button[@class='order__cancel-submit']")
-	public WebElement returnOrderBttn;
-	@FindBy(xpath = "//p[text()='Return was successfull']")
-	public WebElement returnSuccessMessage;
-	
-	//Review Order
-	@FindBy(xpath = "//button[@id='reviewBtn']")
-	public WebElement reviewBttn;
-	@FindBy(xpath = "//input[@name='headline']")
-	public WebElement headlineText;
-	@FindBy(xpath = "//textarea[@name='comment']")
-	public WebElement reviewText;
-	@FindBy(xpath = "//button[@id='reviewSubmitBtn']")
-	public WebElement addYourReviewBttn;
-	@FindBy(xpath = "//div[text()='Your review was added successfully']")
-	public WebElement reviewAddedSuccessMssg;
-	@FindBy(xpath = "//p[text()='Order Placed']")
-	public WebElement orderPlaced;
+	@FindBy(xpath = "//select[@id='search']")
+    public WebElement allDepartmentSection;
+
+    @FindBy(xpath ="//option[text()='Smart Home']")
+    public WebElement smartHomeOption;
+
+    @FindBy(xpath ="//input[@id='searchInput']")
+    public WebElement searchInput;
+
+    @FindBy(xpath = "//button[@id='searchBtn']")
+    public WebElement searchBttn;
+
+    
+    @FindBy(xpath = "//div//p[text()='Kasa Outdoor Smart Plug']")
+    public WebElement itemKasaOutdoor;
+
+    @FindBy(xpath ="//button[@id='addToCartBtn']")
+    public WebElement addToCartBttn;
+
+ 
+
+    
+    @FindBy(xpath ="//*[@id=\"root\"]/div[1]/div[1]/div[3]/div/div[1]/div[3]/div/div/select")
+    public WebElement quantityOption;
+
+    @FindBy(xpath ="//a[@id='orderLink']")
+    public WebElement ordersOption;
+
+    @FindBy(css = "p.order__item-name")
+    public WebElement firstOrderLink;
+
+    @FindBy(css ="button#cancelBtn")
+    public WebElement cancelOrderBttn;
+
+    @FindBy(xpath ="//div//p[text()='Apex Legends - 1,000 Apex Coins']")
+    public WebElement itemKasaOutdoor2;
+
+    @FindBy(xpath = "//div[@id='cartBtn']")
+    public WebElement cartOption;
+
+    @FindBy(xpath ="//button[@id='proceedBtn']")
+    public WebElement proccedBttn;
+
+    @FindBy(id="placeOrderBtn")
+    public WebElement placeOrderBttn;
+
+    @FindBy(xpath = "//div//p[text()='Order Placed, Thanks']")
+    public WebElement orderPlacedMessage;
+
+    @FindBy(id = "orderLink")
+    public WebElement orderBttn;
+
+    @FindBy(xpath ="//div//p[text()='May 11, 2023']")
+    public WebElement firstOrderInList;
+
+    @FindBy(xpath = "//*[@id=\"cancelBtn\"]")
+    public WebElement cancelBttn;
+
+    @FindBy(xpath = "//select[@id='reasonInput']")
+    public WebElement dropDownForCancleOrder;
+
+    @FindBy(xpath = "//div//button[@class='order__cancel-submit']")
+    public WebElement cancelOrder;
+
+    @FindBy(xpath ="//div//p[text()='Your Order Has Been Cancelled']")
+    public WebElement orderCancleMessage;
+
+    @FindBy(xpath ="//div//button[@id='returnBtn']")
+    public WebElement retrunItemBttn;
+
+    @FindBy(xpath ="//div//select[@id='reasonInput']")
+    public WebElement dropDownForReturnOrder;
+
+    @FindBy(xpath = "//div//select[@id='dropOffInput']")
+    public WebElement dropDownForDropOffservice;
+
+    @FindBy(xpath = "//div//button[@class='order__cancel-submit']")
+    public WebElement orderRetrunbttn;
+
+    @FindBy(xpath = "//div//p[text()='Return was successfull']")
+    public WebElement orderReturnMessage;
+
+    @FindBy(xpath = "//div//button[@id='reviewBtn']")
+    public WebElement reviewBttn;
+
+    @FindBy(xpath = "//div//input[@id='headlineInput']")
+    public WebElement headlineInput;
+
+    @FindBy(xpath = "//div//textarea[@id='descriptionInput']")
+    public WebElement descriptionInput;
+
+    @FindBy(xpath = "//div//button[@id='reviewSubmitBtn']")
+    public WebElement addYourReview;
+
+    
+    @FindBy(xpath = "//div//div[text()='Your review was added successfully']")
+    public WebElement reviewAddedMessage;
 }
