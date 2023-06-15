@@ -1,0 +1,48 @@
+2023-06-12 18:49:36,573 [main] INFO logger_file - User in on retail website
+2023-06-12 18:49:36,819 [main] INFO logger_file - User cliked on Sign In option
+2023-06-12 18:49:37,136 [main] INFO logger_file - User entered email and password
+2023-06-12 18:49:37,246 [main] INFO logger_file - User clicked on login button
+2023-06-12 18:51:01,296 [main] INFO logger_file - User in on retail website
+2023-06-12 18:51:07,352 [main] INFO logger_file - User in on retail website
+2023-06-12 18:51:11,930 [main] INFO logger_file - User in on retail website
+2023-06-12 18:51:15,873 [main] INFO logger_file - User in on retail website
+2023-06-12 18:51:20,420 [main] INFO logger_file - User in on retail website
+2023-06-12 18:51:35,529 [main] INFO logger_file - User in on retail website
+2023-06-12 18:51:47,049 [main] INFO logger_file - User in on retail website
+2023-06-12 18:51:47,440 [main] INFO logger_file - User cliked on Sign In option
+2023-06-12 18:51:48,044 [main] INFO logger_file - User entered email and password
+2023-06-12 18:51:48,184 [main] INFO logger_file - User clicked on login button
+2023-06-12 18:51:54,959 [main] INFO logger_file - User in on retail website
+2023-06-12 18:51:55,250 [main] INFO logger_file - User cliked on Sign In option
+2023-06-12 18:54:13,184 [main] INFO logger_file - User in on retail website
+2023-06-12 18:54:13,314 [main] INFO logger_file - User cliked on Sign In option
+2023-06-12 18:54:13,619 [main] INFO logger_file - User entered email and password
+2023-06-12 18:54:13,717 [main] INFO logger_file - User clicked on login button
+2023-06-12 19:01:35,578 [main] INFO logger_file - User in on retail website
+2023-06-12 19:01:35,721 [main] INFO logger_file - User cliked on Sign In option
+2023-06-12 19:01:36,127 [main] INFO logger_file - User entered email and password
+2023-06-12 19:01:36,268 [main] INFO logger_file - User clicked on login button
+2023-06-14 21:54:47,085 [main] INFO logger_file - User in on retail website
+2023-06-14 21:54:47,226 [main] INFO logger_file - User cliked on Sign In option
+2023-06-14 22:00:14,195 [main] INFO logger_file - User in on retail website
+2023-06-14 22:00:17,660 [main] INFO logger_file - User in on retail website
+2023-06-14 22:00:21,206 [main] INFO logger_file - User in on retail website
+2023-06-14 22:00:25,553 [main] INFO logger_file - User in on retail website
+2023-06-14 22:00:30,829 [main] INFO logger_file - User in on retail website
+2023-06-15 16:17:46,781 [main] INFO logger_file - User is on retail website
+2023-06-15 16:17:47,090 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-15 16:20:51,618 [main] INFO logger_file - User is on retail website
+2023-06-15 16:20:51,807 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-15 16:20:51,938 [main] INFO logger_file - New account button was clicked
+2023-06-15 16:20:52,778 [main] INFO logger_file - Registration info entered
+2023-06-15 16:20:52,943 [main] INFO logger_file - Sign up button was clicked
+2023-06-15 16:31:35,926 [main] INFO logger_file - User is on retail website
+2023-06-15 16:31:36,128 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-15 16:31:36,598 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-15 16:31:36,599 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-15 16:31:36,757 [main] INFO logger_file - user was able to login successfully
+2023-06-15 16:34:03,776 [main] INFO logger_file - User is on retail website
+2023-06-15 16:34:04,199 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-15 16:34:04,775 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-15 16:34:04,776 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-15 16:34:04,901 [main] INFO logger_file - user was able to login successfully
