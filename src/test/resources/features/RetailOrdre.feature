@@ -4,12 +4,12 @@ Feature: Retail Order
 Background:
 		Given User is on retail website
 		When User click on Sign in option
-		And User enter email 'rafo.anayat@gmail.com' and password 'Rafo@123'
-		And User click on login button
-		And User should be loged into Account
 		
 		@addToCartOption
   Scenario: Verify User can add an item to cart
+  	And User enter email 'rafo.anayat@gmail.com' and password 'Rafo@123'
+  	And User click on login button
+		And User should be loged into Account
     And User change the category to 'Smart Home'
     And User search for an item 'kasa outdoor smart plug'
     And User click on Search icon
@@ -19,7 +19,10 @@ Background:
     Then the cart icon quantity should change to '2'
 
 	@addItemAndProcToCkout
-  Scenario: Verify User can place an order with Shipping address and payment Method on file​​​​​​​
+  Scenario: Verify User can place an order with Shipping address and payment Method on file​
+  	And User enter email 'rafo.anayat@gmail.com' and password 'Rafo@123'
+  	And User click on login button
+		And User should be loged into Account​​​​​​
 		And User change the category to 'Electronics'
 		And User search for an item Apex Legends 'Apex Legends'
 		And User click on Search icon
@@ -34,6 +37,9 @@ Background:
 		
 		@cancelOrder
 	Scenario: Verify User can cancel the order
+		And User enter email 'rafo.anayat@gmail.com' and password 'Rafo@123'
+  	And User click on login button
+		And User should be loged into Account
 		And User click on Orders section
 		And User click on first order in list
 		And User click on Cancel The Order button
@@ -43,6 +49,9 @@ Background:
 		
 		@returnOrder
 Scenario: Verify User can Return the order
+	And User enter email 'rafo.anayat@gmail.com' and password 'Rafo@123'
+  And User click on login button
+	And User should be loged into Account
 	And User click on Orders section
 	And User click on first order in list
 	And User click on Return Items button
@@ -53,6 +62,9 @@ Scenario: Verify User can Return the order
 
 @reviewOrder
 Scenario: Verify User can write a review on order placed
+	And User enter email 'rafo.anayat@gmail.com' and password 'Rafo@123'
+  And User click on login button
+	And User should be loged into Account
 	And User click on Orders section
 	And User click on first order in list
 	And User click on Review button
