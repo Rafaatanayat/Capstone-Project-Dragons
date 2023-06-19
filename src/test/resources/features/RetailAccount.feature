@@ -56,14 +56,14 @@ Feature: Retail Account
 		Then a message should be displayed 'Address Added Successfully'
 
 	@editAddress
-Scenario: Verify User can edit an Address added on account
-	When User click on Account option
-	And User click on edit address option
-	And user update address form with below information
-	|country      |fullName|phoneNumber|streetAddress   |apt|city     |state|zipCode|
-	|United States|Rafo    |4752021111 |191 edgewood Ave|1  |New Haven|Ohio |423453 |
-	And User click update Your Address button
-	Then A message should be displayed 'Address Updated Successfully'
+	Scenario: Verify User can edit an Address added on account
+		When User click on Account option
+		And User click on edit address option
+		And user update address form with below information
+		|country      |fullName|phoneNumber|streetAddress   |apt|city     |state|zipCode|
+		|United States|Rafo    |4752021111 |191 edgewood Ave|1  |New Haven|Ohio |423453 |
+		And User click update Your Address button
+		Then A message should be displayed 'Address Updated Successfully'
 
 @removeAddress
 Scenario: Verify User can remove Address from Account
