@@ -42,7 +42,7 @@ public class SignInSteps extends CommonUtility{
         logger.info("user was able to login successfully");
 
     }
-    @Then("User should be logged in into Account")
+    @Then("User should be logged into Account")
     public void userShouldBeLoggedInIntoAccount() {
         String pageTitleExpected = "React App";
         String pageTitleActual = getTitle();

@@ -8,12 +8,12 @@ import tek.capstone.dragons.utilities.CommonUtility;
 
 public class RetailOrderSteps extends CommonUtility {
 	POMFactory factory = new POMFactory();
-
+	
 	@When("User change the category to {string}")
 	   public void userChangeTheCategoryTo(String SmartHome) {
 	       click(factory.retailOrder().allDepartmentSection);
 	       selectByVisibleText(factory.retailOrder().allDepartmentSection, SmartHome);
-	       logger.info("user was able to change the categgory to " + SmartHome);
+	       logger.info("The categgory was change successfully to " + SmartHome);
 	   }
 
 
@@ -63,7 +63,10 @@ public class RetailOrderSteps extends CommonUtility {
 	       String actualQuantity = "2";
 	       Assert.assertEquals(expectedQuantity, actualQuantity);
 	       logger.info("User was able to change the quantity " + expectedQuantity);
+	       Assert.assertEquals(factory.retailOrder().quantityOption.getText() ,quantity);
+	       logger.info("User was able to change the quantity " + quantity );
 	   }
+
 
 
 
@@ -106,7 +109,6 @@ public class RetailOrderSteps extends CommonUtility {
 	   public void userSelectTheQuantity(String string) {
 		   slowDown();
 	       selectByValue(factory.retailOrder().quantityOption, string);
-	       
 	       logger.info(string + " was selected");
 	   }
 

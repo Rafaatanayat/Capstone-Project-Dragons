@@ -78,7 +78,7 @@ public class RetailOrderPage extends BaseSetup{
     @FindBy(xpath ="//div//p[text()='Your Order Has Been Cancelled']")
     public WebElement orderCancleMessage;
 
-    @FindBy(xpath ="//div//button[@id='returnBtn']")
+    @FindBy(id = "returnBtn")
     public WebElement retrunItemBttn;
 
     @FindBy(xpath ="//div//select[@id='reasonInput']")
@@ -108,4 +108,5 @@ public class RetailOrderPage extends BaseSetup{
     
     @FindBy(xpath = "//div//div[text()='Your review was added successfully']")
     public WebElement reviewAddedMessage;
+
 }

@@ -11,9 +11,8 @@ Scenario: Verify Shop by Department sidebar
 	|Electronics|Computers|Smart Home|Sports|Automative|
 
 @validateOptionsAllDepts
-Scenario Outline: Verify department sidebar options
-	And User on <department>
-	Then below options are present in department
+Scenario: Verify department sidebar options
+	And User can see below options are present in department
 		| <optionOne> | <optionTwo> |
 
 Examples:

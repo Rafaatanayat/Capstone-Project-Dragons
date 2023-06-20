@@ -1,7 +1,5 @@
 package tek.capstone.dragons.base;
 
-import java.time.Duration;
-import java.time.temporal.ChronoUnit;
 import java.util.HashMap;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
@@ -31,7 +29,7 @@ public class BaseSetup {
 			System.out.println("Failed to load env_config property. Check your filePath");
 			throw new RuntimeException("Failed to load env_config file: " + e.getMessage());
 		}
-		logger = logger.getLogger("logger_file");
+		logger = Logger.getLogger("logger_file");
 		PropertyConfigurator.configure(log4jPath);
 	
 	}
@@ -64,9 +62,6 @@ public class BaseSetup {
 		default:
 			throw new RuntimeException("Browser name in config file does not match any of the cases");
 		}
-		
-		webDriver.manage().window().maximize();
-		webDriver.manage().timeouts().implicitlyWait(Duration.of(20, ChronoUnit.SECONDS));
 	}
 	
 	public void quitBrowser() {

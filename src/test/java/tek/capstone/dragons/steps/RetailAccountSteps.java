@@ -15,12 +15,15 @@ import tek.capstone.dragons.utilities.CommonUtility;
 public class RetailAccountSteps extends CommonUtility{
 	
 	POMFactory factory = new POMFactory();
+	
+	
 	@When("User click on Account option")
     public void userClickOnAccountOption() {
         click(factory.accountPage().accountOption);
         logger.info("User was able to click on account option");
 
     }
+
 
     @When("User update Name {string} and Phone {string}")
     public void userUpdateNameAndPhone(String name, String phone) {
@@ -31,17 +34,24 @@ public class RetailAccountSteps extends CommonUtility{
         logger.info(name + phone + " user was able to enter the values");
     }
 
+
     @When("User click on Update button")
     public void userClickOnUpdateButton() throws InterruptedException {
-    	Thread.sleep(3000);
+    	Thread.sleep(4000);
         click(factory.accountPage().updateBttn);
+        
         logger.info("User was able to click on update button successfully");
     }
+
+ 
 
     @Then("user profile information should be updated")
     public void userProfileInformationShouldBeUpdated() {
         Assert.assertTrue(factory.accountPage().successMessage.isDisplayed());
         logger.info("User profile information has been upadted");
+
+ 
+
     }
 
  
@@ -51,6 +61,8 @@ public class RetailAccountSteps extends CommonUtility{
         click(factory.accountPage().addAPaymentMethodLink);
         logger.info("User was able to click on add a payment link successfully");
     }
+
+ 
 
     @When("User fill Debit or credit card information")
     public void userFillDebitOrCreditCardInformation(io.cucumber.datatable.DataTable dataTable) {
@@ -66,27 +78,37 @@ public class RetailAccountSteps extends CommonUtility{
         }
     }
 
+ 
+
     @When("User click on Add your card button")
     public void userClickOnAddYourCardButton() {
         click(factory.accountPage().paymentSubmitBttn);
         logger.info("user was able to click on payment submition button");
-        
     }
+
+ 
+
     @Then("a message should be displayed {string}")
     public void aMessageShouldBeDisplayed(String string) {
         Assert.assertTrue(factory.accountPage().successMessage.isDisplayed());
         logger.info(" Payment Method added successfully");
+
+ 
+
     }
     
 
+ 
 
     @When("User click on Edit option of card section")
     public void userClickOnEditOptionOfCardSection() {
         click(factory.accountPage().cardOption);
         click(factory.accountPage().editCardBttn);
         logger.info("edit button was clicked");
-        
     }
+
+ 
+
     @When("user edit information with below data")
     public void userEditInformationWithBelowData(io.cucumber.datatable.DataTable dataTable) {
         List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
@@ -103,39 +125,53 @@ public class RetailAccountSteps extends CommonUtility{
         }
     }
 
+ 
+
     @When("user click on Update Your Card button")
     public void userClickOnUpdateYourCardButton() throws InterruptedException {
     	Thread.sleep(3000);
         click(factory.accountPage().editpaymentSubmitBttn);
         logger.info("button was clicked successfully");
     }
-    
+
+ 
+
     @Then("a message should be displayed ‘Payment Method updated Successfully’")
     public void aMessageShouldBeDisplayedPaymentMethodUpdatedSuccessfully() {
         Assert.assertTrue(factory.accountPage().successMessage.isDisplayed());
         logger.info("Payment Method updated Successfully message was dispalyed");
     }
-    
-    //Remove card
+
+ 
+
     @When("User click on remove option of card section")
     public void userClickOnRemoveOptionOfCardSection() {
         click(factory.accountPage().cardOption);
         click(factory.accountPage().removeBttn);
         logger.info("User was able to click on remove button successfully");
     }
+
+ 
+
     @Then("payment details should be removed")
     public void paymentDetailsShouldBeRemoved() {
         Assert.assertTrue(factory.accountPage().successMessage.isDisplayed());
         logger.info("Card removed successfully");
+
+ 
+
     }
 
  
+
     @When("User click on Add address option")
     public void userClickOnAddAddressOption() {
         click(factory.accountPage().addAdressOption);
         logger.info("add method option clicked successfully");
-        
     }
+
+ 
+
     @When("user fill new address form with below information")
     public void userFillNewAddressFormWithBelowInformation(io.cucumber.datatable.DataTable dataTable) {
         List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
@@ -151,24 +187,33 @@ public class RetailAccountSteps extends CommonUtility{
             logger.info("User was able to add address successfully");
         }
     }
+
+ 
+
     @When("User click Add Your Address button")
     public void userClickAddYourAddressButton() {
         click(factory.accountPage().addressBttn);
         logger.info("the address button was cliked");
-        
     }
+
+ 
+
     @Then("a message should be displayed 'Address Added Successfully’")
     public void aMessageShouldBeDisplayedAddressAddedSuccessfully() {
         Assert.assertTrue(factory.accountPage().successMessage.isDisplayed());
         logger.info("Address Added Successfully message displayed");
-        
     }
+
+ 
+
     @When("User click on edit address option")
     public void userClickOnEditAddressOption() {
         click(factory.accountPage().editAddresOption);
         logger.info("edit address button was clicked successfully");
-        
     }
+
+ 
+
     @When("user eidt new address form with below information")
     public void userEidtNewAddressFormWithBelowInformation(io.cucumber.datatable.DataTable dataTable) {
         List<Map<String, String>> data = dataTable.asMaps(String.class, String.class);
@@ -192,29 +237,39 @@ public class RetailAccountSteps extends CommonUtility{
         }
     }
 
+ 
+
     private void slowDowm() {
 		// TODO Auto-generated method stub
 		
-    }
+	}
+
+
+
 	@When("User click update Your Address button")
     public void userClickUpdateYourAddressButton() {
         click(factory.accountPage().editAddressBttn);
         logger.info("The butto was clicked successfully");
-        
     }
+
+ 
+
     @Then("a message should be displayed 'Address Updated Successfully’")
     public void aMessageShouldBeDisplayedAddressUpdatedSuccessfully() {
         Assert.assertTrue(factory.accountPage().successMessage.isDisplayed());
         logger.info("Address Updated Successfully message was dispalyed");
-      
-        
     }
+
+ 
+
     @When("User click on remove option of Address section")
     public void userClickOnRemoveOptionOfAddressSection() {
         click(factory.accountPage().removeAddressBttn);
         logger.info("Remove Address button clicked");
-        
     }
+
+ 
+
     @Then("Address details should be removed")
     public void addressDetailsShouldBeRemoved() {
         Assert.assertTrue(factory.accountPage().addAdressOption.isDisplayed());
