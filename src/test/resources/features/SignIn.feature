@@ -2,9 +2,9 @@
 Feature: Retail SignIn
 
 Background:
-Given User is on retail website
-When User click on Sign in option
-Then User should be logged into Account
+	Given User is on retail website
+ 	When User click on Sign in option
+  Then User should be logged in into Account
 
 #this is comment
 @test

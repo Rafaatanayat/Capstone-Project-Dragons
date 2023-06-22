@@ -30,6 +30,7 @@ public class POMFactory extends BaseSetup{
 	public RetailOrderPage retailOrder() {
 		return this.retailOrder;
 	}
+
 	
 
 }

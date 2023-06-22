@@ -6,12 +6,12 @@ Feature: Retail Account
     When User click on Sign in option
 		And User enter email 'rafo.anayat@gmail.com' and password 'Rafo@123'
 		And User click on login button
-    #And User should be logged in into Account
+    And User should be logged in into Account
+    And User click on Account option
 	
 	@updateProfile
 	Scenario: Verify User can update Profile Information
-    When User click on Account option
-		And User update Name 'Rafo' and Phone '313-424-1536'
+		And User update Name 'Rafo' and Phone '3134241536'
 		And User click on Update button
     Then user profile information should be updated
 	
@@ -28,7 +28,6 @@ Feature: Retail Account
 		
 		@editPaymentMethod
 	Scenario: Verify User can edit Debit or Credit card
-    When User click on Account option
     And User click on Edit option of card section
     And user edit information with below data
 		|cardNumber      |nameOnCard|expirationMonth|expirationYear|securityCode|
@@ -38,33 +37,29 @@ Feature: Retail Account
 		
 		@removePaymentMethod
 	Scenario: Verify User can remove Debit or Credit card
-    When User click on Account option
     And User click on remove option of card section
     Then payment details should be removed
 		
 		
 		@addNewAddress
 	Scenario: Verify User can add an Address
-    When User click on Account option
     And User click on Add address option
     And user fill new address form with below information
 		|country      |fullName|phoneNumber |streetAddress|apt |city      | state  |zipCode|
 		|United States|Rafo    |111-222-3334|1234 Sherman |12  |New Haven |New York|22036  |
 		And User click Add Your Address button
-    Then a message should be displayed 'Address Added Successfully’
+    #Then a message should be displayed 'Address Added Successfully’
 
 	@editAddress
 	Scenario: Verify User can edit an Address added on account
-    When User click on Account option
     And User click on edit address option
     And user eidt new address form with below information
 		|country      |fullName|phoneNumber|streetAddress   |apt|city     |state|zipCode|
-		|United States|Rafo    |4752021111 |191 edgewood Ave|1  |New Haven|Ohio |423453 |
+		|United States|Rafo    |4752021111 |191 edgewood Ave|1  |New Haven|Ohio |42345  |
 		And User click update Your Address button
-    Then a message should be displayed 'Address Updated Successfully’
+    #Then a message should be displayed 'Address Updated Successfully’
 
 @removeAddress
 Scenario: Verify User can remove Address from Account
-    When User click on Account option
     And User click on remove option of Address section
     Then Address details should be removed

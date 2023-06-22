@@ -13,43 +13,43 @@ public class RetailSignInPage extends BaseSetup {
 	} 
 	
 	@FindBy(id = "signinLink")
-    public WebElement singInOption;
+	public WebElement singInOption;
 
-    @FindBy(id = "email")
-    public WebElement emailInput;
+	@FindBy(id = "email")
+	public WebElement emailInput;
 
-    @FindBy(id = "password")
-    public WebElement passwordInput;
+	@FindBy(id = "password")
+	public WebElement passwordInput;
 
-    @FindBy(id = "loginBtn")
-    public WebElement loginBttn;
+	@FindBy(id = "loginBtn")
+	public WebElement loginBttn;
 
-    @FindBy(id = "accountLink")
-    public WebElement accountOption;
+	@FindBy(id = "accountLink")
+	public WebElement accountOption;
 
-    @FindBy(linkText = "Orders")
-    public WebElement ordersOption;
+	@FindBy(linkText = "Orders")
+	public WebElement ordersOption;
 
-    @FindBy(id = "logoutBtn")
-    public WebElement logoutOPtion;
+	@FindBy(id = "logoutBtn")
+	public WebElement logoutOPtion;
 
-    @FindBy(id = "newAccountBtn")
-    public WebElement newAccountBttn;
+	@FindBy(id = "newAccountBtn")
+	public WebElement newAccountBttn;
 
-    @FindBy(id = "nameInput")
-    public WebElement nameField;
+	@FindBy(id = "nameInput")
+	public WebElement nameField;
 
-    @FindBy(id = "emailInput")
-    public WebElement emailField;
+	@FindBy(id = "emailInput")
+	public WebElement emailField;
 
-    @FindBy(id = "passwordInput")
-    public WebElement passwordField;
+	@FindBy(id = "passwordInput")
+	public WebElement passwordField;
 
-    @FindBy(id = "confirmPasswordInput")
-    public WebElement passConfirmField;
+	@FindBy(id = "confirmPasswordInput")
+	public WebElement passConfirmField;
 
-    @FindBy(id = "signupBtn")
-    public WebElement signUpBttn;
+	@FindBy(id = "signupBtn")
+	public WebElement signUpBttn;
 	
 	
 	
