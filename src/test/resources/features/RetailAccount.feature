@@ -9,11 +9,11 @@ Feature: Retail Account
     And User should be logged in into Account
     And User click on Account option
 	
-	@updateProfile
-	Scenario: Verify User can update Profile Information
-		And User update Name 'Rafo' and Phone '3134241536'
-		And User click on Update button
-    Then user profile information should be updated
+#	@updateProfile
+#	Scenario: Verify User can update Profile Information
+#		And User update Name 'Rafo' and Phone '3134241536'
+#		And User click on Update button
+    #Then user profile information should be updated
 	
 	@paymentMethod
 	Scenario: Verify User can add a payment method

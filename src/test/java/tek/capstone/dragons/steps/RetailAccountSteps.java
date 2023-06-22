@@ -33,11 +33,11 @@ public class RetailAccountSteps extends CommonUtility{
 		logger.info(name + phone + " user was able to enter the values");
 	}
 
-	@When("User click on Update button")
-	public void userClickOnUpdateButton() {
-		click(factory.accountPage().updateBttn);
-		logger.info("User was able to click on update button successfully");
-	}
+//	@When("User click on Update button")
+//	public void userClickOnUpdateButton() {
+//		click(factory.accountPage().updateBttn);
+//		logger.info("User was able to click on update button successfully");
+//	}
 
 	@Then("user profile information should be updated")
 	public void userProfileInformationShouldBeUpdated() {

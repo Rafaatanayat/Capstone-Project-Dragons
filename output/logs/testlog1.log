@@ -3583,3 +3583,309 @@
 2023-06-22 18:04:04,067 [main] INFO logger_file - New account button was clicked
 2023-06-22 18:04:04,401 [main] INFO logger_file - Registration info entered
 2023-06-22 18:04:04,467 [main] INFO logger_file - Sign up button was clicked
+2023-06-22 18:08:52,532 [main] INFO logger_file - User is on retail website
+2023-06-22 18:08:52,651 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:08:54,140 [main] INFO logger_file - User is on retail website
+2023-06-22 18:08:54,246 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:08:55,821 [main] INFO logger_file - User is on retail website
+2023-06-22 18:08:55,924 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:08:57,629 [main] INFO logger_file - User is on retail website
+2023-06-22 18:08:57,743 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:08:59,569 [main] INFO logger_file - User is on retail website
+2023-06-22 18:08:59,681 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:09:01,204 [main] INFO logger_file - User is on retail website
+2023-06-22 18:09:01,311 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:09:02,806 [main] INFO logger_file - User is on retail website
+2023-06-22 18:09:02,906 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:09:03,112 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:09:03,112 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:09:03,176 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:09:03,181 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:09:03,841 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:09:04,175 [main] INFO logger_file - Rafo3134241536 user was able to enter the values
+2023-06-22 18:09:26,394 [main] INFO logger_file - User is on retail website
+2023-06-22 18:09:26,484 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:09:26,731 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:09:26,732 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:09:26,801 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:09:26,805 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:09:27,422 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:09:27,501 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:09:27,570 [main] INFO logger_file - User was able to click on add a payment link successfully
+2023-06-22 18:09:28,000 [main] INFO logger_file - Card information has entered successfully
+2023-06-22 18:09:33,074 [main] INFO logger_file - user was able to click on payment submition button
+2023-06-22 18:09:33,093 [main] INFO logger_file -  Payment Method added successfully
+2023-06-22 18:09:34,652 [main] INFO logger_file - User is on retail website
+2023-06-22 18:09:34,734 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:09:34,920 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:09:34,921 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:09:34,977 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:09:34,980 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:09:35,607 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:09:35,770 [main] INFO logger_file - edit button was clicked
+2023-06-22 18:09:36,308 [main] INFO logger_file - The information was updated successfully
+2023-06-22 18:09:36,365 [main] INFO logger_file - button was clicked successfully
+2023-06-22 18:09:36,383 [main] INFO logger_file -  Payment Method added successfully
+2023-06-22 18:09:37,874 [main] INFO logger_file - User is on retail website
+2023-06-22 18:09:37,979 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:09:38,188 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:09:38,188 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:09:38,263 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:09:38,268 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:09:38,911 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:09:39,087 [main] INFO logger_file - User was able to click on remove button successfully
+2023-06-22 18:09:39,116 [main] INFO logger_file - Card removed successfully
+2023-06-22 18:09:40,622 [main] INFO logger_file - User is on retail website
+2023-06-22 18:09:40,712 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:09:40,924 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:09:40,924 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:09:40,990 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:09:40,995 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:09:41,639 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:09:41,748 [main] INFO logger_file - add method option clicked successfully
+2023-06-22 18:09:42,391 [main] INFO logger_file - User was able to add address successfully
+2023-06-22 18:09:42,464 [main] INFO logger_file - the address button was cliked
+2023-06-22 18:09:44,582 [main] INFO logger_file - User is on retail website
+2023-06-22 18:09:44,693 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:09:44,912 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:09:44,913 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:09:44,973 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:09:44,976 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:09:45,604 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:09:45,719 [main] INFO logger_file - edit address button was clicked successfully
+2023-06-22 18:09:51,624 [main] INFO logger_file - The information has been apdated
+2023-06-22 18:09:51,704 [main] INFO logger_file - The butto was clicked successfully
+2023-06-22 18:09:53,529 [main] INFO logger_file - User is on retail website
+2023-06-22 18:09:53,617 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:09:53,818 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:09:53,818 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:09:53,886 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:09:53,891 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:09:54,524 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:09:54,603 [main] INFO logger_file - Remove Address button clicked
+2023-06-22 18:09:54,627 [main] INFO logger_file - Address removed
+2023-06-22 18:09:56,489 [main] INFO logger_file - User is on retail website
+2023-06-22 18:09:56,572 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:09:56,751 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:09:56,751 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:09:56,811 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:09:56,815 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:09:57,506 [main] INFO logger_file - user was able to change the categgory to Smart Home
+2023-06-22 18:09:57,654 [main] INFO logger_file - User was able to search for the item kasa outdoor smart plug
+2023-06-22 18:09:57,707 [main] INFO logger_file - search button was clicked successfully
+2023-06-22 18:09:58,280 [main] INFO logger_file - Searched item was clicked
+2023-06-22 18:10:03,358 [main] INFO logger_file - 2 was selected
+2023-06-22 18:10:03,412 [main] INFO logger_file - User added to cart successfully
+2023-06-22 18:10:03,413 [main] INFO logger_file - User was able to change the quantity 2
+2023-06-22 18:10:04,994 [main] INFO logger_file - User is on retail website
+2023-06-22 18:10:05,084 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:10:05,291 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:10:05,292 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:10:05,367 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:10:05,371 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:10:06,096 [main] INFO logger_file - user was able to change the categgory to Electronics
+2023-06-22 18:10:06,230 [main] INFO logger_file - User was able to search for the item Apex Legends
+2023-06-22 18:10:06,284 [main] INFO logger_file - search button was clicked successfully
+2023-06-22 18:10:06,873 [main] INFO logger_file - Searched item was clicked
+2023-06-22 18:10:11,949 [main] INFO logger_file - 5 was selected
+2023-06-22 18:10:12,007 [main] INFO logger_file - User added to cart successfully
+2023-06-22 18:10:12,007 [main] INFO logger_file - User was able to change the quantity 5
+2023-06-22 18:10:12,087 [main] INFO logger_file - User was able to click on cart option successfully
+2023-06-22 18:10:12,169 [main] INFO logger_file - User was able to click on Proceed to Checkout button successfully
+2023-06-22 18:10:12,228 [main] INFO logger_file - Place your order button was clicked
+2023-06-22 18:10:12,250 [main] INFO logger_file -  Payment Method added successfully
+2023-06-22 18:10:13,777 [main] INFO logger_file - User is on retail website
+2023-06-22 18:10:13,861 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:10:14,045 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:10:14,045 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:10:14,099 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:10:14,103 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:10:14,727 [main] INFO logger_file - User was able to click on orders section
+2023-06-22 18:10:14,824 [main] INFO logger_file - User was able to click on Return Items button successfully
+2023-06-22 18:10:14,978 [main] INFO logger_file - User was able to choose the option successfully
+2023-06-22 18:10:15,119 [main] INFO logger_file - User was able to choose the option successfully
+2023-06-22 18:10:15,182 [main] INFO logger_file - User was able toclick on Return Order button successfully
+2023-06-22 18:10:15,182 [main] INFO logger_file - User was able to see the message
+2023-06-22 18:10:16,745 [main] INFO logger_file - User is on retail website
+2023-06-22 18:10:16,823 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:10:17,043 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:10:17,044 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:10:17,099 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:10:17,103 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:10:17,697 [main] INFO logger_file - User was able to click on orders section
+2023-06-22 18:10:17,796 [main] INFO logger_file - User was able to click on Cancel The Order successfully
+2023-06-22 18:10:17,950 [main] INFO logger_file - User was able to choose the option successfully
+2023-06-22 18:10:18,018 [main] INFO logger_file - User was able to click on Cancel Order button  successfully
+2023-06-22 18:10:18,018 [main] INFO logger_file - User was able to see the message
+2023-06-22 18:10:19,689 [main] INFO logger_file - User is on retail website
+2023-06-22 18:10:19,774 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:10:20,035 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:10:20,035 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:10:20,094 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:10:20,098 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:10:20,725 [main] INFO logger_file - User was able to click on orders section
+2023-06-22 18:10:20,830 [main] INFO logger_file - User was able to click on review button successfully
+2023-06-22 18:10:21,142 [main] INFO logger_file - User was able to write review successfully
+2023-06-22 18:10:21,204 [main] INFO logger_file - User was able to add review successfully
+2023-06-22 18:10:21,768 [main] INFO logger_file - User was able to see the message
+2023-06-22 18:10:23,285 [main] INFO logger_file - User is on retail website
+2023-06-22 18:10:23,378 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:10:23,385 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:10:23,684 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:10:23,684 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:10:23,743 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:10:25,272 [main] INFO logger_file - User is on retail website
+2023-06-22 18:10:25,361 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:10:25,368 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:10:25,436 [main] INFO logger_file - New account button was clicked
+2023-06-22 18:10:25,805 [main] INFO logger_file - Registration info entered
+2023-06-22 18:10:25,865 [main] INFO logger_file - Sign up button was clicked
+2023-06-22 18:12:16,695 [main] INFO logger_file - User is on retail website
+2023-06-22 18:12:16,811 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:12:19,722 [main] INFO logger_file - User is on retail website
+2023-06-22 18:12:19,822 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:12:22,028 [main] INFO logger_file - User is on retail website
+2023-06-22 18:12:22,125 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:12:24,718 [main] INFO logger_file - User is on retail website
+2023-06-22 18:12:24,810 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:12:27,129 [main] INFO logger_file - User is on retail website
+2023-06-22 18:12:27,234 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:12:29,669 [main] INFO logger_file - User is on retail website
+2023-06-22 18:12:29,761 [main] INFO logger_file - user click on All section option successfully
+2023-06-22 18:12:32,076 [main] INFO logger_file - User is on retail website
+2023-06-22 18:12:32,160 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:12:32,351 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:12:32,351 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:12:32,424 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:12:32,429 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:12:33,073 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:12:33,158 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:12:33,233 [main] INFO logger_file - User was able to click on add a payment link successfully
+2023-06-22 18:12:33,697 [main] INFO logger_file - Card information has entered successfully
+2023-06-22 18:12:38,772 [main] INFO logger_file - user was able to click on payment submition button
+2023-06-22 18:12:38,793 [main] INFO logger_file -  Payment Method added successfully
+2023-06-22 18:12:40,924 [main] INFO logger_file - User is on retail website
+2023-06-22 18:12:41,008 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:12:41,203 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:12:41,203 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:12:41,269 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:12:41,275 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:12:41,882 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:12:42,558 [main] INFO logger_file - edit button was clicked
+2023-06-22 18:12:43,098 [main] INFO logger_file - The information was updated successfully
+2023-06-22 18:12:43,163 [main] INFO logger_file - button was clicked successfully
+2023-06-22 18:12:43,180 [main] INFO logger_file -  Payment Method added successfully
+2023-06-22 18:12:45,735 [main] INFO logger_file - User is on retail website
+2023-06-22 18:12:45,825 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:12:46,031 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:12:46,031 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:12:46,104 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:12:46,108 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:12:46,727 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:12:46,896 [main] INFO logger_file - User was able to click on remove button successfully
+2023-06-22 18:12:46,919 [main] INFO logger_file - Card removed successfully
+2023-06-22 18:12:49,017 [main] INFO logger_file - User is on retail website
+2023-06-22 18:12:49,121 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:12:49,337 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:12:49,338 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:12:49,407 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:12:49,411 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:12:50,054 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:12:50,167 [main] INFO logger_file - add method option clicked successfully
+2023-06-22 18:12:50,882 [main] INFO logger_file - User was able to add address successfully
+2023-06-22 18:12:50,963 [main] INFO logger_file - the address button was cliked
+2023-06-22 18:12:53,731 [main] INFO logger_file - User is on retail website
+2023-06-22 18:12:53,829 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:12:54,044 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:12:54,045 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:12:54,122 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:12:54,127 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:12:54,763 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:12:54,865 [main] INFO logger_file - edit address button was clicked successfully
+2023-06-22 18:13:00,887 [main] INFO logger_file - The information has been apdated
+2023-06-22 18:13:00,957 [main] INFO logger_file - The butto was clicked successfully
+2023-06-22 18:13:04,169 [main] INFO logger_file - User is on retail website
+2023-06-22 18:13:04,245 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:13:04,420 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:13:04,420 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:13:04,478 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:13:04,482 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:13:05,096 [main] INFO logger_file - User was able to click on account option
+2023-06-22 18:13:05,686 [main] INFO logger_file - Remove Address button clicked
+2023-06-22 18:13:05,707 [main] INFO logger_file - Address removed
+2023-06-22 18:13:07,990 [main] INFO logger_file - User is on retail website
+2023-06-22 18:13:08,065 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:13:08,237 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:13:08,238 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:13:08,295 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:13:08,299 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:13:08,977 [main] INFO logger_file - user was able to change the categgory to Smart Home
+2023-06-22 18:13:09,156 [main] INFO logger_file - User was able to search for the item kasa outdoor smart plug
+2023-06-22 18:13:09,223 [main] INFO logger_file - search button was clicked successfully
+2023-06-22 18:13:09,808 [main] INFO logger_file - Searched item was clicked
+2023-06-22 18:13:14,891 [main] INFO logger_file - 2 was selected
+2023-06-22 18:13:14,950 [main] INFO logger_file - User added to cart successfully
+2023-06-22 18:13:14,950 [main] INFO logger_file - User was able to change the quantity 2
+2023-06-22 18:13:18,560 [main] INFO logger_file - User is on retail website
+2023-06-22 18:13:18,643 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:13:18,853 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:13:18,853 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:13:18,918 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:13:18,923 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:13:20,672 [main] INFO logger_file - user was able to change the categgory to Electronics
+2023-06-22 18:13:20,798 [main] INFO logger_file - User was able to search for the item Apex Legends
+2023-06-22 18:13:20,855 [main] INFO logger_file - search button was clicked successfully
+2023-06-22 18:13:21,432 [main] INFO logger_file - Searched item was clicked
+2023-06-22 18:13:26,521 [main] INFO logger_file - 5 was selected
+2023-06-22 18:13:26,574 [main] INFO logger_file - User added to cart successfully
+2023-06-22 18:13:26,575 [main] INFO logger_file - User was able to change the quantity 5
+2023-06-22 18:13:26,638 [main] INFO logger_file - User was able to click on cart option successfully
+2023-06-22 18:13:26,722 [main] INFO logger_file - User was able to click on Proceed to Checkout button successfully
+2023-06-22 18:13:26,786 [main] INFO logger_file - Place your order button was clicked
+2023-06-22 18:13:26,812 [main] INFO logger_file -  Payment Method added successfully
+2023-06-22 18:13:28,856 [main] INFO logger_file - User is on retail website
+2023-06-22 18:13:28,927 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:13:29,109 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:13:29,109 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:13:29,169 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:13:29,172 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:13:29,756 [main] INFO logger_file - User was able to click on orders section
+2023-06-22 18:13:30,344 [main] INFO logger_file - User was able to click on Return Items button successfully
+2023-06-22 18:13:30,491 [main] INFO logger_file - User was able to choose the option successfully
+2023-06-22 18:13:30,629 [main] INFO logger_file - User was able to choose the option successfully
+2023-06-22 18:13:30,696 [main] INFO logger_file - User was able toclick on Return Order button successfully
+2023-06-22 18:13:30,697 [main] INFO logger_file - User was able to see the message
+2023-06-22 18:13:32,736 [main] INFO logger_file - User is on retail website
+2023-06-22 18:13:32,814 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:13:32,991 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:13:32,991 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:13:33,050 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:13:33,053 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:13:33,678 [main] INFO logger_file - User was able to click on orders section
+2023-06-22 18:13:33,787 [main] INFO logger_file - User was able to click on Cancel The Order successfully
+2023-06-22 18:13:33,959 [main] INFO logger_file - User was able to choose the option successfully
+2023-06-22 18:13:34,033 [main] INFO logger_file - User was able to click on Cancel Order button  successfully
+2023-06-22 18:13:34,034 [main] INFO logger_file - User was able to see the message
+2023-06-22 18:13:36,212 [main] INFO logger_file - User is on retail website
+2023-06-22 18:13:36,299 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:13:36,505 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:13:36,505 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:13:36,571 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:13:36,575 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:13:37,182 [main] INFO logger_file - User was able to click on orders section
+2023-06-22 18:13:37,275 [main] INFO logger_file - User was able to click on review button successfully
+2023-06-22 18:13:37,621 [main] INFO logger_file - User was able to write review successfully
+2023-06-22 18:13:37,677 [main] INFO logger_file - User was able to add review successfully
+2023-06-22 18:13:38,229 [main] INFO logger_file - User was able to see the message
+2023-06-22 18:13:42,843 [main] INFO logger_file - User is on retail website
+2023-06-22 18:13:42,920 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:13:42,925 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:13:43,116 [main] INFO logger_file - rafo.anayat@gmail.comemail was entered successfully
+2023-06-22 18:13:43,116 [main] INFO logger_file - Rafo@123password was entered successfully
+2023-06-22 18:13:43,175 [main] INFO logger_file - user was able to login successfully
+2023-06-22 18:13:51,750 [main] INFO logger_file - User is on retail website
+2023-06-22 18:13:51,827 [main] INFO logger_file - User clicked on signin option successfully
+2023-06-22 18:13:51,832 [main] INFO logger_file - User logged in into the account
+2023-06-22 18:13:51,894 [main] INFO logger_file - New account button was clicked
+2023-06-22 18:13:52,189 [main] INFO logger_file - Registration info entered
+2023-06-22 18:13:52,249 [main] INFO logger_file - Sign up button was clicked

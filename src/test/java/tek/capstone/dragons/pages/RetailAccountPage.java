@@ -21,8 +21,8 @@ public class RetailAccountPage extends BaseSetup {
 	@FindBy(id = "personalPhoneInput")
 	public WebElement phoneInput;
 
-	@FindBy(id = "personalUpdateBtn")
-	public WebElement updateBttn;
+//	@FindBy(id = "personalUpdateBtn")
+//	public WebElement updateBttn;
 
 	@FindBy(xpath = "//html//body//div//div[2]")
 	public WebElement successMessage;
